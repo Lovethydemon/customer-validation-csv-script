@@ -1,4 +1,18 @@
 {
+  "name": "customer-validation-csv-script",
+  "version": "1.0.0",
+  "description": "Script to validate customer handles between two CSV files",
+  "main": "compare-customers.js",
+  "scripts": {
+    "start": "node compare-customers.js"
+  },
+  "keywords": [
+    "csv",
+    "validation",
+    "customer-data"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
   "dependencies": {
     "csv-parser": "^3.0.0"
   }
